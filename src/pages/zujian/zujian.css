@@ -1,0 +1,131 @@
+#zujian .head_h1 {
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+
+/*main*/
+
+#zujian .main {
+	text-align: left;
+}
+
+.main .main_bottom {
+	margin-bottom: 10px;
+}
+
+.main .main_size {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.main_btn {
+	text-align: left;
+	margin: 10px 10px 10px 0;
+}
+
+.main .main_model .el-input {
+	width: 200px;
+}
+
+.main .main_tab nav {
+	display: inline-block;
+	margin: 10px auto 20px;
+	background-color: #5597b4;
+	box-shadow: 0 1px 1px #ccc;
+	border-radius: 2px;
+}
+
+.main .main_tab nav a {
+	display: inline-block;
+	padding: 10px 20px;
+	color: #fff !important;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none !important;
+	line-height: 1;
+	background-color: transparent;
+	-webkit-transition: background-color 0.25s;
+	-moz-transition: background-color 0.25s;
+	transition: background-color 0.25s;
+	cursor: pointer;
+}
+
+.main .main_tab b {
+	display: inline-block;
+	padding: 5px 10px;
+	background-color: #c4d7e0;
+	border-radius: 2px;
+	font-size: 18px;
+}
+
+.main .main_tab .show {
+	background-color: #e35885;
+}
+
+.main_price ul {
+	font-size: 20px;
+	text-align: left;
+	margin: 20px 0 15px;
+	width: 400px;
+}
+
+.main_price ul li {
+	padding: 10px 30px;
+	background-color: #ccc;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.main_price ul li span {
+	float: right;
+}
+
+.main_price ul li.active {
+	background-color: #8ec16d;
+}
+
+.main_price p {
+	width: 400px;
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+	padding: 15px 30px;
+	font-size: 20px;
+	text-align: left;
+	background: #42B983;
+}
+
+.main_price p span {
+	float: right;
+}
+
+.main_communication .v_comminiaction {
+	width: 100%;
+	border: #42B983 solid 1px;
+	padding: 10px;
+	margin: 10px;
+	overflow: hidden;
+}
+.main_communication .v_comminiaction .first_left,
+.main_communication .v_comminiaction .first_right {
+	width: 45%;
+	border: #2C3E50 solid 1px;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+}
+.main_title {
+	font-size: 18px;
+	color: red;
+}
+.title_sub {
+	font-size: 18px;
+	color: #42B983;
+	margin-bottom: 5px;
+}
+.v_comminiaction .zujian{
+	clear: both;
+	margin-left: 10px;
+}

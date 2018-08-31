@@ -1,0 +1,120 @@
+input {
+	font-size: 14px;
+}
+
+.hidden {
+	display: none;
+}
+
+.main {
+	/*width: 800px;*/
+	text-align: left;
+	padding: 20px;
+	border: 1px solid #000000;
+}
+
+.main h2 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+
+}
+
+.main h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.main .list p {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.main .list p input {
+	margin-right: 5px;
+}
+
+.list_ul {
+	/*background: #8EC16D;*/
+}
+
+.main .list p label {
+	margin-right: 10px;
+}
+
+.list_ul .li1 {
+	padding: 0 20px;
+	line-height: 40px;
+	position: relative;
+	border: 1px solid transparent;
+}
+
+.list_ul li .type-span {
+	display: block;
+	width: 10px;
+	height: 10px;
+	background: #ccc;
+	margin: 14px 10px 0 0;
+	float: left;
+}
+
+.list_ul li .close {
+	position: absolute;
+	color: #f00;
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	top: 0;
+	right: 20px;
+	cursor: pointer;
+	display: none;
+}
+
+.list_ul li:hover {
+	border: 1px solid #09f;
+}
+
+.list_ul li:hover .close {
+	display: block;
+}
+
+.text-keyword {
+	box-sizing: border-box;
+	width: 100%;
+	height: 40px;
+	padding-left: 10px;
+	outline: none;
+	margin-bottom: 10px;
+}
+
+.list .num_color {
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.list_ul li .status-end {
+	background: #42B983;
+}
+
+.list_ul li div {
+	display: block;
+}
+
+.list_ul li.eidting div {
+	display: none;
+}
+
+.list_ul li .text2 {
+	height: 40px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	margin-left: 10px;
+	width: 80%;
+	display: none;
+}
+
+.list_ul li.eidting .text2 {
+	display: block;
+}
